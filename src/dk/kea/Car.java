@@ -6,8 +6,10 @@ public class Car implements Vehicle {
         System.out.println("superfast to max speed");
     }
 
+
     @Override
     public void stop() {
         System.out.println("tried to break but couldn't");
     }
+
 }
